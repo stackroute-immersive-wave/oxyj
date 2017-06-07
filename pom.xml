@@ -34,6 +34,7 @@
 	<modules>
 		<module>config</module>
 		<module>movieservice</module>
+		<module>Apigateway</module>
 	</modules>
 
 </project>

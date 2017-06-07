@@ -12,12 +12,11 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 //@Entity
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class Movie extends ResourceSupport {
+	@Id
+	private String imdbID;
 	private String Poster;
 	private String Title;
 	private String Year;
-	@Id //for mongo
-	//@Id for sql
-	private String imdbID;
 	private String Description;
 	//public Movie(){}
 //	public Movie(String Poster, String Title, String Year, String imdbID){
