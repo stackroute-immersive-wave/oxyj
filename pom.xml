@@ -34,7 +34,9 @@
 	<modules>
 		<module>config</module>
 		<module>movieservice</module>
-		<module>Apigateway</module>
+		<module>apigateway</module>
+		<module>eurekaserver</module>
+		
 	</modules>
 
 </project>

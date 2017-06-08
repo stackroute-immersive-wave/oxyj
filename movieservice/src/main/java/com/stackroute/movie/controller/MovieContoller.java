@@ -20,6 +20,9 @@ import com.stackroute.movie.domain.Movie;
 import com.stackroute.movie.hateoes.LinkHateoes;
 import com.stackroute.movie.service.MovieService;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
+@EnableEurekaClient
 @RestController
 @RefreshScope
 @RequestMapping(value="/movie")
