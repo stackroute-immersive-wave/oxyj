@@ -3,6 +3,7 @@ package com.stackroute.movie.domain;
 //import javax.persistence.Entity;
 
 import org.springframework.data.annotation.Id;
+//import org.springframework.data.redis.core.RedisHash;
 import org.springframework.hateoas.ResourceSupport;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -11,6 +12,7 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 //@JsonSerialize
 //@Entity
 @JsonIgnoreProperties(ignoreUnknown=true)
+//@RedisHash("products")
 public class Movie extends ResourceSupport {
 	@Id
 	private String imdbID;
